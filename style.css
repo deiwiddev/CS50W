@@ -139,6 +139,26 @@ main .container p{
 }
 
 footer{
+    display: flex;
+    flex-direction: column;
     height: 90px;
-    background-color: teal;
+    background-color: #171717;
+}
+
+
+footer section {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    padding: 0 12px;
+
+}
+footer section .more-info {
+    display: flex;
+    justify-content: space-around;
+
+}
+footer section .more-info div a {
+    color: #999da2;
+    text-decoration: none;
 }
